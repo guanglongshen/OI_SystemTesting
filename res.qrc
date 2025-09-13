@@ -1,3 +1,5 @@
 <RCC>
-    <qresource prefix="/assets"/>
+    <qresource prefix="/icon">
+        <file>SystemTest.ico</file>
+    </qresource>
 </RCC>

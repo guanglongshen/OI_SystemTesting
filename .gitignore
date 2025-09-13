@@ -1,74 +1,78 @@
-# This file is used to ignore files which are generated
 # ----------------------------------------------------------------------------
-
+# General temporary / OS files
 *~
 *.autosave
-*.a
-*.core
-*.moc
-*.o
-*.obj
 *.orig
 *.rej
-*.so
-*.so.*
-*_pch.h.cpp
-*_resource.rc
-*.qm
-.#*
-*.*#
-core
-!core/
-tags
 .DS_Store
 .directory
-*.debug
-Makefile*
-*.prl
-*.app
-moc_*.cpp
-ui_*.h
-qrc_*.cpp
+*.swp
+*.swo
+*.tmp
 Thumbs.db
+tags
+
+# ----------------------------------------------------------------------------
+# C++ / Qt generated files
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.obj
+*.o
+*.core
 *.res
 *.rc
-/.qmake.cache
-/.qmake.stash
-
-# qtcreator generated files
-*.pro.user*
-CMakeLists.txt.user*
-
-# xemacs temporary files
-*.flc
-
-# Vim temporary files
-.*.swp
-
-# Visual Studio generated files
-*.ib_pdb_index
-*.idb
-*.ilk
 *.pdb
-*.sln
-*.suo
-*.vcproj
-*vcproj.*.*.user
+*.ilk
+*.idb
 *.ncb
 *.sdf
 *.opensdf
 *.vcxproj
-*vcxproj.*
+*vcproj.*
+*.suo
+*.sln
 
-# MinGW generated files
+# Qt specific
+*.moc
+*.moc.cpp
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qrc.depends
+*.qrc
+*.pro.user*
+*.qmlc
+*.jsc
+*.qmltypes
+*.qm
+
+# ----------------------------------------------------------------------------
+# CMake / build system
+CMakeLists.txt.user*
+CMakeCache.txt
+CMakeFiles/
+Makefile*
+/build/
+/build-*/
+/cmake-build-*/
+
+# QtCreator generated files
+/.qmake.cache
+/.qmake.stash
+/.qtc_clangd/
 *.Debug
 *.Release
 
-# Python byte code
-*.pyc
-
-# Binaries
-# --------
-*.dll
-*.exe
-
+# ----------------------------------------------------------------------------
+# OI testing system outputs
+*.out
+*.log
+*.score
+*.result
+/temp/
+/sandbox/
+/submissions/

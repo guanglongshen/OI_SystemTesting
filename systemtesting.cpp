@@ -5,7 +5,7 @@ SystemTesting::SystemTesting(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::SystemTesting)
 {
-    ui->setupUi(this);
+    ui -> setupUi(this);
 }
 
 SystemTesting::~SystemTesting()
