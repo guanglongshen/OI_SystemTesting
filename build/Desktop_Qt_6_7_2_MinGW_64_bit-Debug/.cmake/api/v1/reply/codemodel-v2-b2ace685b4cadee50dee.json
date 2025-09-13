@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-92dabf6aca6f3bfaaf4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SystemTesting",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SystemTesting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SystemTesting-Debug-b97ef7843e1bafa24a5c.json",
+					"name" : "SystemTesting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SystemTesting_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SystemTesting_autogen-Debug-94fa95bb8f09b1337121.json",
+					"name" : "SystemTesting_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SystemTesting_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SystemTesting_autogen_timestamp_deps-Debug-c00e9550f50933f57f38.json",
+					"name" : "SystemTesting_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/QTP/SystemTesting/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "E:/QTP/SystemTesting"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
