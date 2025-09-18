@@ -1,5 +1,14 @@
 <RCC>
     <qresource prefix="/icon">
         <file>SystemTest.ico</file>
+        <file>assets/icons/reset.ico</file>
+        <file>assets/icons/export.ico</file>
+        <file>assets/icons/language.ico</file>
+        <file>assets/icons/student.png</file>
+        <file>assets/icons/computer.png</file>
+        <file>assets/icons/problem.png</file>
+        <file>assets/icons/compile.png</file>
+        <file>assets/icons/run.png</file>
+        <file>assets/icons/setting.png</file>
     </qresource>
 </RCC>
